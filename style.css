@@ -15,7 +15,7 @@ body {
 }
 #degrade-top {
     position: fixed;
-    height: 150px;
+    height: 700px;
     width: 100%;
     left: 0;
     top: 0;
@@ -24,7 +24,7 @@ body {
 }
 #game-popup {
     position: fixed;
-    background-color: #2e2e2e;
+    background-color: black;
     z-index: 3;
     top: 0;
     left: 0;
@@ -36,16 +36,28 @@ body {
 #users-textarea {
     position: fixed;
     width: 250px;
-    top: 150px;
+    top: 400px;
     left: calc(50% - 125px);
     height: calc(50% - 150px - 50px);
 }
 #logo-mnp {
     position: fixed;
     z-index: 4;
-    width: 30%;
+    width: 25%;
     top: 20px;
+    left: 37%;
+}
+#titre-concours {
+    position: fixed;
+    z-index: 4;
+    width: 30%;
+    top: 140px;
     left: 35%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 #go, #hide-textarea{
     position: fixed;
@@ -59,12 +71,12 @@ body {
 }
 #hide-textarea {
     left: calc(50% - 200px);
-    top: 50%;
+    top: 75%;
     width: 400px;
 }
 #go {
     left: calc(50% - 200px);
-    top: calc(50% + 200px);
+    top: calc(50% + 320px);
     width: 400px;
 }
 #go:focus, #hide-textarea:focus {
@@ -72,10 +84,10 @@ body {
 }
 #cursor {
     position: fixed;
-    top: calc(50vh - 10px);
+    top: calc(60vh - 42px);
     z-index: 2;
     height: 34px;
-    box-shadow: 0 0 1px white inset;
+    box-shadow: 0 0 10px white inset;
     padding: 10px 0px 10px 0px;
     left: 25%;
     width: 50%;
