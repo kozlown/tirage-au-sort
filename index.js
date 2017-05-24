@@ -61,10 +61,10 @@ function go() {
         $('#game-popup').css('opacity', 0)
         const winnerDom = document.getElementById(`user-${444}`)
         const winnerTop = $(winnerDom).offset().top
-        $('#users').css('top', `calc(50vh - ${winnerTop}px - 10px)`)
+        $('#users').css('top', `calc(60vh - ${winnerTop}px - 42px)`)
         setTimeout(() => {
             $('#users').css('transition', `.5s`)
-            $('#users').css('top', `calc(50vh - ${winnerTop}px)`)
+            $('#users').css('top', `calc(60vh - ${winnerTop}px - 42px + 10px)`)
             setTimeout(() => {
                 $(winnerDom).css('color', '#f44336')
             }, 500)
